@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+main {
+  background: rgb(210, 102, 127);
+  background: linear-gradient(
+    90deg,
+    rgba(210, 102, 127, 1) 0%,
+    rgba(171, 85, 146, 1) 51%,
+    rgba(115, 61, 180, 1) 100%
+  );
+  padding: 200px 270px;
+  @include mobile-mid {
+    padding: 20px;
+  }
+  @include mobile-large {
+    padding: 20px;
+  }
+  @include tablet {
+    padding: 20px 40px;
+  }
+}
+.container {
+  background-color: white;
+  padding: 48px 0px 60px 0px;
+  border-radius: 10px;
+  @include mobile-mid {
+    padding: 20px 0px;
+  }
+}
+.calculator {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+}
