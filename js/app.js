@@ -1,6 +1,6 @@
+import '/css/app.scss';
 import { drawBMI } from "./drawBMI";
 import $ from "jquery";
-
 $(document).ready(function () {
   $(".js-calculate").on("click", function () {
     let height = $(".js-height").val();

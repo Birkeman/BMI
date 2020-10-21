@@ -2,6 +2,8 @@ app.css.map
 base.css.map
 calculator.css.map
 breakpoints.css.map
-node_modules/
+node_modules*
 dist/
 .cache/
+.vercel
+!node_modules/jquery/package.json
